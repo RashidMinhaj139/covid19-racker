@@ -1,0 +1,113 @@
+ body{
+  /* background-color: #61dafb; */
+  font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+ }
+ .App {
+  text-align: center;
+}
+.App h1{
+  /* color: red; */
+  /* background-color: #61dafb; */
+  /* border: 1px solid red; */
+}
+.App ul li{
+  color: blue;
+
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.box{
+  
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.sub_box{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* good mornng wala */
+.head{
+  margin-left: 380px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid red;
+  height: auto;
+  width: 50%;
+  /* color: rgb(237, 16, 211); */
+}
+.greet{
+  color: red;
+
+}
+
+/* props cards wala */
+.main_head{
+  text-align: center;
+}
+.cards{
+  margin-left: 130px;
+  display: inline-block;
+  align-items:center;
+  /* gap: 20px; */
+  /* justify-content: space-around; */
+}
+.card{
+  
+  text-align: center;
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+}
+.card img{
+  height: 150px;
+  width: 100%;
+}
+/* :states wala */
+.states{
+  text-align: center;
+}
+.states button{
+  height: 50px;
+  background-color: aqua;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+}
